@@ -13,3 +13,19 @@ const wrapAdjective = (flair = "*") => {
   }
 }
 
+const Calculator = {
+  add: (a,b) => a + b,
+  subtract: (a,b) => a - b,
+  multiply: (a,b) => a * b,
+  divide: (a,b) => a / b
+}
+
+let actionApplyer = function(start, ray) {
+  let a = start
+
+  for (let i = 0; i < ray.length; i++ ){
+    a = ray[i](a)
+  }
+
+  return a
+}
