@@ -4,5 +4,5 @@ const saturdayFun = (activity = "roller-skate") => {
 }
 
 const mondayWork = (activity = "go to the office") => {
-  return `
+  return `This Monday, I will ${activity}`
 }
