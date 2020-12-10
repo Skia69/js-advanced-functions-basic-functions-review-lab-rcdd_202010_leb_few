@@ -1,4 +1,4 @@
 // Your code here
-const saturdayFun = (activity) => {
+const saturdayFun = (activity = "roller-skate") => {
   return `This Saturday, I want to ${activity}!`
 }
