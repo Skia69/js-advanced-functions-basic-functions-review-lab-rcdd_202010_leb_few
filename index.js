@@ -9,7 +9,7 @@ const mondayWork = (activity = "go to the office") => {
 
 const wrapAdjective = (flair = "*") => { 
   return function(arg = "special"){
-    return `You are ${flair}${arg}${flair}`
+    return `You are ${flair}${arg}${flair}!`
   }
 }
 
